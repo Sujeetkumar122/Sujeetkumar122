@@ -1,0 +1,59 @@
+<svg width="100%" height="90" viewBox="0 0 1000 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="50%" stop-color="#0b1120" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+
+    <linearGradient id="footerLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0" />
+      <stop offset="25%" stop-color="#00F2FE" stop-opacity="0.85" />
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="1" />
+      <stop offset="75%" stop-color="#10B981" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0" />
+    </linearGradient>
+
+    <filter id="fBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .footer-quote {
+      font-family: 'Fira Code', 'SF Mono', Consolas, monospace;
+      font-size: 12px;
+      letter-spacing: 2px;
+      fill: #94A3B8;
+      text-anchor: middle;
+    }
+    .footer-author {
+      font-weight: 700;
+      fill: #38BDF8;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect x="2" y="2" width="996" height="86" rx="10" fill="url(#footerBg)" stroke="#1F2937" stroke-width="1.2" />
+
+  <!-- Top Accent Glowing Circuit -->
+  <line x1="20" y1="1" x2="980" y2="1" stroke="url(#footerLine)" stroke-width="2" filter="url(#fBlur)" />
+
+  <!-- High-Tech Corner Marks -->
+  <path d="M 12 24 L 12 12 L 24 12" stroke="#00F2FE" stroke-width="1.5" fill="none" />
+  <path d="M 988 24 L 988 12 L 976 12" stroke="#00F2FE" stroke-width="1.5" fill="none" />
+  <path d="M 12 66 L 12 78 L 24 78" stroke="#00F2FE" stroke-width="1.5" fill="none" />
+  <path d="M 988 66 L 988 78 L 976 78" stroke="#00F2FE" stroke-width="1.5" fill="none" />
+
+  <!-- Center Quote -->
+  <text x="500" y="42" class="footer-quote">
+    "TRUE ARCHITECTURAL MASTERY LIES IN SCALABLE, ZERO-TRUST &amp; RESILIENT CLOUD ECOSYSTEMS."
+  </text>
+  <text x="500" y="62" class="footer-quote footer-author">
+    &#8212; SUJEET KUMAR &#8226; SENIOR DEVSECOPS ENGINEER &amp; CLOUD ARCHITECT &#8212;
+  </text>
+</svg>
