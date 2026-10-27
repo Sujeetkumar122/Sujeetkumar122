@@ -114,12 +114,12 @@ Modular, production-ready Terraform repository demonstrating advanced language c
 
 ---
 
-### 2. 🌐 [`azure-private-dns-zones-terraform`](https://github.com/Sujeetkumar122/azure-private-dns-zones-terraform)
+### 2. 🌐 [`azure-private-dns-infrastructure-automation`](https://github.com/Sujeetkumar122/azure-private-dns-infrastructure-automation)
 Modular Terraform codebase deploying Azure Private DNS Zones, VNet Resolution Links, and Azure Bastion jump hosts.
 * **DNS Resolution:** Automates private DNS zones (`corp.internal`), dynamic A-record mapping to VM private IPs, and resolution links across VNets.
 * **Security & CI/CD:** Zero-public-IP access via Azure Bastion with multi-stage Azure DevOps YAML pipelines including TfSec, Checkov, and Trivy security scans.
 
-[**View Repository →**](https://github.com/Sujeetkumar122/azure-private-dns-zones-terraform)
+[**View Repository →**](https://github.com/Sujeetkumar122/azure-private-dns-infrastructure-automation)
 
 ---
 
