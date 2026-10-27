@@ -51,9 +51,9 @@
 
   <!-- Center Quote -->
   <text x="500" y="42" class="footer-quote">
-    "TRUE ARCHITECTURAL MASTERY LIES IN SCALABLE, ZERO-TRUST &amp; RESILIENT CLOUD ECOSYSTEMS."
+    "BUILDING RELIABLE AZURE CLOUD INFRASTRUCTURE WITH TERRAFORM &amp; DEVOPS."
   </text>
   <text x="500" y="62" class="footer-quote footer-author">
-    &#8212; SUJEET KUMAR &#8226; SENIOR DEVSECOPS ENGINEER &amp; CLOUD ARCHITECT &#8212;
+    &#8212; SUJEET KUMAR &#8226; SENIOR AZURE &amp; DEVOPS ENGINEER &#8212;
   </text>
 </svg>

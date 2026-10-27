@@ -1,18 +1,19 @@
 <div align="center">
 
-<img src="./assets/banner.svg" alt="Sujeet Kumar - Senior DevSecOps Engineer & Cloud Architect" width="100%" />
+<img src="./assets/banner.svg" alt="Sujeet Kumar - Senior Azure & DevOps Engineer" width="100%" />
 
 <a href="https://readme-typing-svg.demolab.com/">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=21&pause=1100&color=00E5FF&center=true&vCenter=true&width=900&height=60&lines=Senior+DevSecOps+Engineer+%7C+Cloud+Architect;17%2B+Years+of+Experience+%7C+Azure+Landing+Zones+(CAF);Terraform+IaC+%7C+Zero-Trust+CI%2FCD+Security;Migrating+100%2B+Workloads+with+Zero-Downtime;Building+Self-Healing+%26+FinOps-Optimized+Cloud+Platforms" alt="Animated DevSecOps headline" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=20&pause=1200&color=00E5FF&center=true&vCenter=true&width=900&height=60&lines=Senior+Azure+%26+DevOps+Engineer;17%2B+Years+of+IT+Experience+%7C+Enterprise+Infrastructure;Terraform+Modular+IaC+(for_each%2C+maps%2C+dynamic+blocks);Azure+DevOps+(ADO)+Multi-Stage+YAML+Pipelines;Git%2C+GitHub+Actions+%26+Azure+Cloud+Solutions" alt="Sujeet Kumar Headline" />
 </a>
 
-### 🔐 Senior DevSecOps Engineer & Cloud Architect | 17+ Years Experience
+### ☁️ Senior Azure & DevOps Engineer | 17+ Years IT Experience
 
-**Enterprise Cloud Infrastructure · Zero-Trust Security · GitOps Automation · Autonomous SRE**
+**Microsoft Azure · Terraform (IaC) · Azure DevOps (ADO) · CI/CD Pipelines · Git & GitHub**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sujeetkumar122)
 [![GitHub](https://img.shields.io/badge/GitHub-Repositories-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sujeetkumar122?tab=repositories)
-[![Control Plane](https://img.shields.io/badge/Status-Available_for_Senior_Roles-16803D?style=for-the-badge&logo=opsgenie&logoColor=white)](#-connect)
+[![Azure Cloud](https://img.shields.io/badge/Focus-Azure_%26_DevOps-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](#-featured-repositories)
+[![Status](https://img.shields.io/badge/Status-Open_to_Opportunities-16803D?style=for-the-badge)](#-connect-with-me)
 
 </div>
 
@@ -20,161 +21,146 @@
 
 ## 👋 About Me
 
-I am a **Senior DevSecOps Engineer & Cloud Solutions Architect** with **17+ years of experience** specializing in production-grade Microsoft Azure infrastructure, multi-cloud landing zones, shift-left pipeline security, and modern **Agentic AI systems (Model Context Protocol, RAG, and autonomous SRE operations)**.
+I am a **Senior Azure & DevOps Engineer** with **17+ years of IT experience**, with a solid track record in designing, automating, and maintaining enterprise infrastructure on **Microsoft Azure**.
 
-My architectural background focuses on **governing and migrating 100+ mission-critical workloads** to the cloud with zero downtime, enforcing zero-trust infrastructure as code (Terraform), and accelerating engineering delivery cycles while maintaining 100% CIS compliance.
+My core hands-on expertise spans **Terraform Infrastructure as Code (IaC)**, **Azure DevOps (ADO) multi-stage YAML pipelines**, **Git / GitHub workflows**, and **Azure cloud architecture**. I focus on building reliable, repeatable infrastructure, automating application deployments, and streamlining team delivery without overcomplicating systems.
 
-* ☁️ **Cloud & Scale:** Designing enterprise Hub-and-Spoke topologies, Azure Cloud Adoption Framework (CAF) landing zones, and production Kubernetes platforms (AKS).
-* 🛡️ **DevSecOps & Supply Chain:** Baking automated security gates (Checkov, Trivy, TruffleHog, GitLeaks, OPA Gatekeeper) into Azure DevOps and GitHub Actions CI/CD pipelines.
-* 🚚 **100+ Application Migration:** Orchestrating end-to-end cloud migrations using the 6R framework, automated discovery, wave planning, and zero-downtime cutover.
-* 💰 **FinOps & Cost Governance:** Cutting over **$400K+ in annual cloud OPEX** through automated resource rightsizing, orphan storage cleanup, and predictive Infracost CI/CD gating.
-* 🤖 **Modern Edge (AI-Ops):** Leveraging **Model Context Protocol (MCP)** and intelligent SRE tooling for automated log triage, root cause analysis (RCA), and runbook assistance.
+### 💼 What I Do:
+* ☁️ **Azure Cloud Infrastructure:** Provisioning and managing VNets, Subnets, Network Security Groups (NSGs), Virtual Machines, Storage Accounts, Key Vaults, and Azure Kubernetes Service (AKS).
+* 🏗️ **Terraform Automation:** Writing production-ready, reusable Terraform modules using `for_each`, maps, `dynamic` blocks, variables validation, and remote state backends with Azure Blob Storage lease locks.
+* 🔄 **CI/CD with Azure DevOps & GitHub:** Designing multi-stage YAML pipelines for continuous integration and deployment, managing self-hosted and Microsoft-hosted build agents, service connections, and approval gates.
+* 🔒 **Security & Secrets Management:** Storing and retrieving credentials, certificates, and keys securely using Azure Key Vault, Managed Identities, and RBAC roles.
+* 📊 **Monitoring & Operations:** Writing practical KQL queries in Azure Log Analytics to track VM performance, heartbeats, storage usage, and operational alerts.
+* 🛠️ **Scripting & Automation:** Writing PowerShell and Bash scripts for routine operational tasks, inventory reports, and cost-saving cleanup of orphaned resources.
 
 ---
 
-## 🧭 Portfolio Delivery Map
+## 🧭 Real-World DevOps & Azure Architecture Flow
 
 ```mermaid
-flowchart TD
-    subgraph Core["🏛️ Architecture & Governance (17+ Years Experience)"]
-        A[Sujeet Kumar Portfolio] --> B[Azure CAF Landing Zones]
-        A --> C[100+ Workload Migration Engine]
-        A --> D[FinOps & Cloud Cost Governance]
+flowchart LR
+    subgraph SCM["Source Code & Version Control"]
+        A[Git Repository<br/>GitHub / ADO] -->|Feature Branch| B[Pull Request & Code Review]
+        B -->|Merge to Main| C[Trigger Pipeline]
     end
 
-    subgraph DevSecOps["🛡️ DevSecOps & IaC Automation"]
-        B --> E[Terraform Modular IaC]
-        E --> F[Infracost Budget Gate]
-        E --> G[Checkov & Trivy Security Gate]
-        G --> H[Azure DevOps / GitHub Pipelines]
+    subgraph ADO["Azure DevOps CI/CD Pipeline"]
+        C --> D[Lint & Terraform Validate]
+        D --> E[Terraform Plan]
+        E -->|Approval Gate| F[Terraform Apply]
     end
 
-    subgraph Runtime["☸️ Production Runtime & Secured Network"]
-        H --> L[Zero-Trust AKS Cluster]
-        B --> N[Hub & Spoke VNet Core]
-        N --> O[Azure Firewall & UDR Routing]
-        L --> M[Calico NetPol & Key Vault CSI]
+    subgraph State["Remote State Backend"]
+        F <-->|State & Lease Lock| G[Azure Storage Account<br/>Blob Container]
     end
 
-    subgraph SRE["⚡ Observability & Modern AI-Ops"]
-        L --> P[Azure Monitor & Sentinel SIEM]
-        P --> Q[Model Context Protocol MCP Telemetry]
-        Q --> R[Vector Runbook RAG - Qdrant]
+    subgraph Azure["Microsoft Azure Infrastructure"]
+        F --> H[Virtual Network & Subnets]
+        F --> I[Network Security Groups]
+        F --> J[Virtual Machines & Scale Sets]
+        F --> K[Azure Kubernetes Service AKS]
+        F --> L[Key Vault & Secrets]
+    end
+
+    subgraph Monitor["Observability"]
+        H & I & J & K --> M[Azure Monitor & Log Analytics]
+        M --> N[KQL Dashboards & Alerts]
     end
 
     classDef blue fill:#0B1F3A,stroke:#0078D4,stroke-width:2px,color:#fff;
     classDef green fill:#052e16,stroke:#10b981,stroke-width:2px,color:#fff;
-    classDef purple fill:#2e1065,stroke:#a855f7,stroke-width:2px,color:#fff;
     classDef amber fill:#331a00,stroke:#f59e0b,stroke-width:2px,color:#fff;
-    class A,B,C,E,F,H blue;
-    class G,L,M,N,O green;
-    class D,P,Q,R purple;
+    class A,B,C blue;
+    class D,E,F,G amber;
+    class H,I,J,K,L,M,N green;
 ```
 
 ---
 
-## 🧰 Technology Stack
+## 🧰 Technical Skills
 
 <div align="center">
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=azure,aws,terraform,kubernetes,docker,githubactions,git,linux,bash,powershell,python,postgres,prometheus,grafana&perline=7" alt="Technology Stack Icons" />
+  <img src="https://skillicons.dev/icons?i=azure,terraform,githubactions,git,github,powershell,bash,linux,docker,kubernetes,vscode&perline=6" alt="Tech Stack" />
 </a>
 
 </div>
 
 <br/>
 
-| Domain | Skills, Frameworks & Enterprise Tooling |
+| Category | Technologies & Tools |
 |---|---|
-| ☁️ **Cloud & Architecture** | Microsoft Azure, AWS, Hub-and-Spoke VNets, ExpressRoute, Azure Firewall Premium, Private Endpoints, Azure Landing Zones (CAF), Azure Site Recovery (ASR) |
-| 🏗️ **Infrastructure as Code** | Terraform Enterprise, Terragrunt, modular design (`for_each` + `map`), remote state locking in Azure Blob Storage, drift detection |
-| 🔄 **CI/CD & Automation** | GitHub Actions, Azure DevOps Pipelines, multi-stage YAML, reusable templates, trunk-based branching, blue/green canary deployments |
-| 🔐 **DevSecOps & Supply Chain** | Shift-Left security, Checkov (CIS Benchmarks), Trivy, TruffleHog, GitLeaks, SonarQube, OPA Gatekeeper, HashiCorp Vault, Entra ID PIM |
-| ☸️ **Containers & Kubernetes** | Azure Kubernetes Service (AKS), Docker, Helm 3, Calico Network Policies, AGIC Ingress, Key Vault Secrets Store CSI Driver, PV/PVC |
-| 📊 **Observability & SRE** | Azure Monitor, Log Analytics Workspaces, Application Insights, Microsoft Sentinel SIEM, KQL Dashboards, Prometheus, Grafana |
-| 💰 **FinOps & Governance** | Infracost pre-merge budget gates, Azure Policy Initiatives, Rightsizing, Reserved Instances (RI), Savings Plans, Automated Start/Stop |
-| 🤖 **Modern Edge: AI-Ops** | Model Context Protocol (MCP) telemetry tools, Vector Runbook RAG (Qdrant), automated log triage, and SRE co-pilots |
+| ☁️ **Cloud Platform** | Microsoft Azure (VNets, Subnets, NSGs, Route Tables, VMs, Storage Accounts, Key Vault, AKS, Azure Bastion, Private Endpoints) |
+| 🏗️ **Infrastructure as Code** | Terraform (`for_each`, maps, `dynamic` blocks, module development, state migration, backend storage locking) |
+| 🔄 **CI / CD Tools** | Azure DevOps (ADO Pipelines, Multi-Stage YAML, Releases, Environments, Service Connections), GitHub Actions |
+| 🌿 **Version Control** | Git, GitHub, Branching Strategies (GitFlow, Trunk-based), Pull Requests, Branch Protection Rules |
+| 📜 **Scripting & Shell** | PowerShell, Azure CLI (`az cli`), Bash, Linux Administration |
+| ☸️ **Containers** | Docker, Azure Kubernetes Service (AKS), Container Registry (ACR), Pods, Services, Ingress |
+| 📊 **Monitoring** | Azure Monitor, Log Analytics Workspaces, KQL (Kusto Query Language), Metric Alerts |
+| 🔐 **Security & Access** | Azure Active Directory / Entra ID, RBAC, Managed Identities, Azure Key Vault |
 
 ---
 
-## 🏅 Industry Certifications & Credentials
+## 🚀 Featured Repositories
 
-- **AZ-305** — Microsoft Certified: Azure Solutions Architect Expert
-- **AZ-400** — Designing and Implementing Microsoft DevOps Solutions
-- **AZ-104** — Microsoft Certified: Azure Administrator Associate
-- **CKA** — Certified Kubernetes Administrator *(Cloud Native Computing Foundation)*
-- **HashiCorp Certified** — Terraform Associate (003)
+### 1. 🏗️ [`azure-enterprise-landing-zones`](https://github.com/Sujeetkumar122/azure-enterprise-landing-zones)
+Modular, production-ready Terraform repository demonstrating advanced language constructs (`for_each`, maps, and `dynamic` blocks).
+* **Terraform Highlights:** Uses `dynamic "security_rule"` inside NSG modules, `for_each` over subnets and route tables, and remote state backend locking in Azure Blob Storage.
+* **Architecture:** Enterprise Hub-and-Spoke network topology with dedicated subnets for Firewall, Gateway, and Workload tiers.
+* **CI/CD:** Automated multi-stage Azure DevOps YAML pipeline running `terraform validate`, `plan`, and `apply`.
 
----
-
-## 🚀 Featured Enterprise Projects
-
-### 1. 🔐 [`azure-enterprise-landing-zones`](https://github.com/Sujeetkumar122/azure-enterprise-landing-zones)
-Production-grade Terraform framework implementing Microsoft Cloud Adoption Framework (CAF) with Hub-and-Spoke network topology, Privileged Identity Management (PIM), and Azure Policy guardrails.
-* **Architecture:** Micro-segmented Management Groups (`Platform` vs `Landing Zones`), User Defined Routes (UDRs) forcing egress through Azure Firewall with stateful inspection.
-* **Security Checks:** Enforces 100% compliance against CIS Microsoft Azure Benchmark v2.0 via automated Checkov and Trivy scans in Azure DevOps and GitHub Actions.
-
-[**Explore Azure Landing Zones →**](https://github.com/Sujeetkumar122?tab=repositories) · [**Terraform Modules Spec**](https://github.com/Sujeetkumar122?tab=repositories) · [**CI/CD Pipeline**](https://github.com/Sujeetkumar122?tab=repositories)
+[**View Repository →**](https://github.com/Sujeetkumar122/azure-enterprise-landing-zones)
 
 ---
 
-### 2. ☸️ [`zero-trust-kubernetes-aks`](https://github.com/Sujeetkumar122/zero-trust-kubernetes-aks)
-Hardened Multi-Tenant Azure Kubernetes Service (AKS) cluster deployment hosting production microservices with GitOps CI/CD automation.
-* **Security & Mesh:** Calico default-deny network security policies, Azure Key Vault secrets injected via CSI driver, container image vulnerability scanning with Trivy.
-* **Stateful Storage:** Resilient stateful workload management with Kubernetes Persistent Volumes (PV), PVCs, and automated volume snapshots.
+### 2. 🔄 [`azure-devops-yaml-ci-cd-templates`](https://github.com/Sujeetkumar122/azure-devops-yaml-ci-cd-templates)
+Production-grade Azure DevOps YAML pipeline templates designed for real-world development workflows.
+* **Template Architecture:** Reusable template structure for Build, Test, Security Scan, and Multi-Environment Deployments (Dev, Stage, Prod).
+* **Best Practices:** Parameterized inputs, service connection integrations, artifact publishing, and manual approval gates before production releases.
 
-[**Explore Kubernetes Platform →**](https://github.com/Sujeetkumar122?tab=repositories) · [**Network Policies**](https://github.com/Sujeetkumar122?tab=repositories) · [**Helm Charts**](https://github.com/Sujeetkumar122?tab=repositories)
-
----
-
-### 3. 🚚 [`enterprise-100-app-migration-factory`](https://github.com/Sujeetkumar122/enterprise-100-app-migration-factory)
-Comprehensive framework orchestrating the mass migration of 100+ mission-critical workloads from on-premises datacenters into Microsoft Azure.
-* **Execution Governance:** Standardized Wave Migration Runbooks, Pre-migration checklists, Cutover checklists, and 30-day Hypercare frameworks.
-* **Zero Downtime:** Database replication, live synchronization, automated sanity testing, and tested rollback procedures with under 15-minute maintenance windows.
-
-[**Explore Migration Framework →**](https://github.com/Sujeetkumar122?tab=repositories) · [**Cutover Runbooks**](https://github.com/Sujeetkumar122?tab=repositories)
+[**View Repository →**](https://github.com/Sujeetkumar122/azure-devops-yaml-ci-cd-templates)
 
 ---
 
-### 4. 💰 [`cloud-finops-sentinel`](https://github.com/Sujeetkumar122/cloud-finops-sentinel)
-Serverless cloud financial management engine automating multi-subscription waste elimination and resource rightsizing.
-* **Waste Elimination:** Automatically detects and purges unattached managed disks, obsolete VM snapshots, unassociated public IPs, and schedules non-production workloads outside business hours.
-* **Cost Impact:** Saved **$400K+ in annual recurring cloud OPEX** across 100+ workloads with automated Infracost PR budget enforcement.
+### 3. ☸️ [`azure-kubernetes-aks-terraform`](https://github.com/Sujeetkumar122/azure-kubernetes-aks-terraform)
+Clean, standard Terraform module to provision and configure Azure Kubernetes Service (AKS).
+* **Components:** System node pool, user node pool, Azure CNI networking, Managed Identity, and integration with Azure Monitor.
+* **Practical Design:** Readable variables, outputs, and `.tfvars` examples that can be directly adapted for customer projects.
 
-[**Explore FinOps Sentinel →**](https://github.com/Sujeetkumar122?tab=repositories) · [**Waste Detectors**](https://github.com/Sujeetkumar122?tab=repositories)
-
----
-
-### 5. 🤖 [`intelligent-sre-mcp-copilot`](https://github.com/Sujeetkumar122/intelligent-sre-mcp-copilot)
-Pragmatic AI-assisted operational co-pilot bridging LLMs with real-time cloud telemetry using Anthropic's **Model Context Protocol (MCP)**.
-* **Autonomous SRE Assist:** Read-only MCP server safely surfacing Azure Resource Graph queries, Log Analytics telemetry, and vector-indexed SOP runbooks (Qdrant).
-* **Impact:** Reduced Mean Time to Acknowledge & Diagnose (MTTA) by **40%** without granting write permissions to the AI agent.
-
-[**Explore SRE Copilot →**](https://github.com/Sujeetkumar122?tab=repositories) · [**MCP Server Code**](https://github.com/Sujeetkumar122?tab=repositories)
+[**View Repository →**](https://github.com/Sujeetkumar122/azure-kubernetes-aks-terraform)
 
 ---
 
-## 🔒 How I Approach DevSecOps
+### 4. 💰 [`azure-cost-optimization-automation`](https://github.com/Sujeetkumar122/azure-cost-optimization-automation)
+Practical PowerShell and Azure CLI automation scripts to identify and clean up unattached cloud resources.
+* **Cost Savings:** Detects unattached Azure Managed Disks, obsolete snapshots, and unused Public IPs.
+* **Automation:** Generates CSV inventory reports with estimated cost waste and includes scheduled VM auto-shutdown runbooks.
 
-- **Shift-Left Security:** Embed security checks directly into developer workflows (Git pre-commit hooks, SAST, SCA, and IaC scanning).
-- **Zero-Trust Identity:** Eliminate permanent elevated privileges using Microsoft Entra ID Privileged Identity Management (PIM) with Just-In-Time access.
-- **Immutable Infrastructure as Code:** Enforce version-controlled, modular Terraform modules with remote state lease locking in Azure Blob Storage.
-- **Predictive FinOps Gates:** Integrate Infracost directly into pull requests to make cloud expenditure transparent and accountable before merge.
-- **High Availability & Disaster Recovery:** Design multi-region failover (LRS/ZRS/GRS, VMSS) ensuring **RTO < 15 minutes** and **RPO < 5 minutes**.
-
----
-
-## 🎯 Current Focus
-
-- Expanding **Model Context Protocol (MCP)** tooling for live infrastructure diagnostics and automated SRE telemetry.
-- Hardening **Zero-Trust Kubernetes security** using Calico Network Policies, CSI Secret Drivers, and Entra ID workload identity.
-- Refining enterprise **Azure Cloud Adoption Framework (CAF)** landing zones with automated drift detection.
-- Optimizing enterprise **Azure Monitor Agent (AMA)** Data Collection Rules to filter telemetry costs at the ingestion source.
+[**View Repository →**](https://github.com/Sujeetkumar122/azure-cost-optimization-automation)
 
 ---
 
-## 📈 Engineering Telemetry
+### 5. 📊 [`azure-monitoring-log-analytics-kql`](https://github.com/Sujeetkumar122/azure-monitoring-log-analytics-kql)
+Curated collection of practical KQL (Kusto Query Language) queries for day-to-day Azure cloud operations and monitoring.
+* **Operational Queries:** VM Heartbeat status, CPU & memory utilization thresholds, failed user logins, storage operations, and NSG flow logs.
+* **Alert Rules:** Ready-to-use queries for setting up Azure Monitor metric and log alert rules.
+
+[**View Repository →**](https://github.com/Sujeetkumar122/azure-monitoring-log-analytics-kql)
+
+---
+
+## 💡 How I Approach Daily Work
+
+- **Keep It Simple & Maintainable:** Infrastructure should be easy to read, review, and maintain by any team member.
+- **Automate Repetitive Tasks:** If a task has to be performed more than twice, automate it using Terraform, PowerShell, or CI/CD pipelines.
+- **Security by Default:** Never commit secrets, passwords, or tokens in Git. Always use Azure Key Vault and Managed Identities.
+- **Test Before Applying:** Always review `terraform plan` outputs and test pipeline changes in non-production environments first.
+- **Collaborative Engineering:** Clear pull request descriptions, meaningful commit messages, and thorough documentation.
+
+---
+
+## 📈 GitHub Activity
 
 <div align="center">
 
@@ -185,18 +171,18 @@ Pragmatic AI-assisted operational co-pilot bridging LLMs with real-time cloud te
 
 ---
 
-## 🤝 Connect
+## 🤝 Connect With Me
 
-I welcome conversations regarding Cloud Architecture, Enterprise DevSecOps transformations, Kubernetes platforms, 100+ Workload Migrations, and FinOps optimization.
+I am always happy to connect with fellow DevOps engineers, cloud professionals, and tech teams.
 
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/Connect_on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sujeetkumar122)
-[![Schedule a Call](https://img.shields.io/badge/Calendly-Schedule_Architecture_Sync-006BFF?style=for-the-badge&logo=calendly&logoColor=white)](https://calendly.com)
-[![Email](https://img.shields.io/badge/Email-Direct_Inquiry-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sujeetkumar.devsecops@gmail.com)
+[![GitHub](https://img.shields.io/badge/Follow_on-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sujeetkumar122)
+[![Email](https://img.shields.io/badge/Email-Get_in_Touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sujeetkumar.devsecops@gmail.com)
 
 <br/>
 
-<img src="./assets/footer.svg" alt="Sujeet Kumar Control Plane" width="100%" />
+<img src="./assets/footer.svg" alt="Sujeet Kumar Footer" width="100%" />
 
 </div>
