@@ -114,7 +114,16 @@ Modular, production-ready Terraform repository demonstrating advanced language c
 
 ---
 
-### 2. 🔄 [`azure-devops-yaml-ci-cd-templates`](https://github.com/Sujeetkumar122/azure-devops-yaml-ci-cd-templates)
+### 2. 🌐 [`azure-private-dns-zones-terraform`](https://github.com/Sujeetkumar122/azure-private-dns-zones-terraform)
+Modular Terraform codebase deploying Azure Private DNS Zones, VNet Resolution Links, and Azure Bastion jump hosts.
+* **DNS Resolution:** Automates private DNS zones (`corp.internal`), dynamic A-record mapping to VM private IPs, and resolution links across VNets.
+* **Security & CI/CD:** Zero-public-IP access via Azure Bastion with multi-stage Azure DevOps YAML pipelines including TfSec, Checkov, and Trivy security scans.
+
+[**View Repository →**](https://github.com/Sujeetkumar122/azure-private-dns-zones-terraform)
+
+---
+
+### 3. 🔄 [`azure-devops-yaml-ci-cd-templates`](https://github.com/Sujeetkumar122/azure-devops-yaml-ci-cd-templates)
 Production-grade Azure DevOps YAML pipeline templates designed for real-world development workflows.
 * **Template Architecture:** Reusable template structure for Build, Test, Security Scan, and Multi-Environment Deployments (Dev, Stage, Prod).
 * **Best Practices:** Parameterized inputs, service connection integrations, artifact publishing, and manual approval gates before production releases.
@@ -123,7 +132,7 @@ Production-grade Azure DevOps YAML pipeline templates designed for real-world de
 
 ---
 
-### 3. ☸️ [`azure-kubernetes-aks-terraform`](https://github.com/Sujeetkumar122/azure-kubernetes-aks-terraform)
+### 4. ☸️ [`azure-kubernetes-aks-terraform`](https://github.com/Sujeetkumar122/azure-kubernetes-aks-terraform)
 Clean, standard Terraform module to provision and configure Azure Kubernetes Service (AKS).
 * **Components:** System node pool, user node pool, Azure CNI networking, Managed Identity, and integration with Azure Monitor.
 * **Practical Design:** Readable variables, outputs, and `.tfvars` examples that can be directly adapted for customer projects.
@@ -132,7 +141,7 @@ Clean, standard Terraform module to provision and configure Azure Kubernetes Ser
 
 ---
 
-### 4. 💰 [`azure-cost-optimization-automation`](https://github.com/Sujeetkumar122/azure-cost-optimization-automation)
+### 5. 💰 [`azure-cost-optimization-automation`](https://github.com/Sujeetkumar122/azure-cost-optimization-automation)
 Practical PowerShell and Azure CLI automation scripts to identify and clean up unattached cloud resources.
 * **Cost Savings:** Detects unattached Azure Managed Disks, obsolete snapshots, and unused Public IPs.
 * **Automation:** Generates CSV inventory reports with estimated cost waste and includes scheduled VM auto-shutdown runbooks.
@@ -141,7 +150,7 @@ Practical PowerShell and Azure CLI automation scripts to identify and clean up u
 
 ---
 
-### 5. 📊 [`azure-monitoring-log-analytics-kql`](https://github.com/Sujeetkumar122/azure-monitoring-log-analytics-kql)
+### 6. 📊 [`azure-monitoring-log-analytics-kql`](https://github.com/Sujeetkumar122/azure-monitoring-log-analytics-kql)
 Curated collection of practical KQL (Kusto Query Language) queries for day-to-day Azure cloud operations and monitoring.
 * **Operational Queries:** VM Heartbeat status, CPU & memory utilization thresholds, failed user logins, storage operations, and NSG flow logs.
 * **Alert Rules:** Ready-to-use queries for setting up Azure Monitor metric and log alert rules.
